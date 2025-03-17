@@ -149,15 +149,6 @@ function Carte({ valeur, estRetourne, onCarteClick, disabled }) {
     "/src/cartes/3.webp",
     "/src/cartes/4.webp",
     "/src/cartes/5.webp",
-    "/src/cartes/6.webp",
-    "/src/cartes/7.webp",
-    "/src/cartes/8.webp",
-    "/src/cartes/9.webp",
-    "/src/cartes/10.webp",
-    "/src/cartes/11.webp",
-    "/src/cartes/12.webp",
-    "/src/cartes/13.webp",
-    "/src/cartes/14.webp",
   ];
 
   const dosImage = "/src/cartes/MysteryCard.webp";
