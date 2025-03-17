@@ -1,4 +1,11 @@
 import { useState, useEffect } from "react";
+import dosImage from "/src/cartes/MysteryCard.webp";
+import image0 from "/src/cartes/0.webp";
+import image1 from "/src/cartes/1.webp";
+import image2 from "/src/cartes/2.webp";
+import image3 from "/src/cartes/3.webp";
+import image4 from "/src/cartes/4.webp";
+import image5 from "/src/cartes/5.webp";
 
 export default function Jeu({ pseudo, duree, onRetour }) {
   const [cartesRetournees, setCartesRetournees] = useState([]);
@@ -142,16 +149,7 @@ export default function Jeu({ pseudo, duree, onRetour }) {
 }
 
 function Carte({ valeur, estRetourne, onCarteClick, disabled }) {
-  const carteImages = [
-    "/src/cartes/0.webp",
-    "/src/cartes/1.webp",
-    "/src/cartes/2.webp",
-    "/src/cartes/3.webp",
-    "/src/cartes/4.webp",
-    "/src/cartes/5.webp",
-  ];
-
-  const dosImage = "/src/cartes/MysteryCard.webp";
+  const carteImages = [image0, image1, image2, image3, image4, image5];
 
   return (
     <div
